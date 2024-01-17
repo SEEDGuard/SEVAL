@@ -50,7 +50,7 @@ To extract the answer file run.
 python extract_answers.py -c test.jsonl -o answers.jsonl 
 ```
 
-To report MAP@R score run.
+Then to report MAP@R score run.
 ```
 python evaluator.py -a answers.jsonl  -p predictions.jsonl 
 ```
