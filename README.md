@@ -10,4 +10,10 @@ A library for software engineering task evaluation
 - [Code Repair](src/tasks/code_repair/README.md)
 - [Code Completion](src/tasks/code_completion/README.md)
 - [Code Search](src/tasks/code_search/README.md)
+- Code Classification
+  - Bug/Defect/ Prediction (TBA)
+  - Bug/Vulnerability Type Prediction (TBA)
+- Fault/Bug Localization (TBA)
+- ...
 
+## Contributors
