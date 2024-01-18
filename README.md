@@ -18,4 +18,6 @@ A library for software engineering task evaluation
 
 ## Contributors
 
-<p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="maxxbw54" /></a></p>
+<p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="mrhuggins03" /></a>
+<a href="https://github.com/chaseltb"><img src="https://avatars.githubusercontent.com/chaseltb?v=4" width="50px" alt="chaseltb" /></a>
+</p>
