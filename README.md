@@ -17,3 +17,5 @@ A library for software engineering task evaluation
 - ...
 
 ## Contributors
+
+<p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="maxxbw54" /></a></p>
