@@ -39,7 +39,7 @@ The predictions file will follow the same format as the answers file: idx1 idx2 
 
 ## Source
 
-- [CodeXGLUE - Text2Code Generation]([https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Clone-detection-BigCloneBench)https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Clone-detection-BigCloneBench)
+- [CodeXGLUE - Code2Code Generation]([https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Clone-detection-BigCloneBench)https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Clone-detection-BigCloneBench])
 
 ## Contributor
 
