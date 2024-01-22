@@ -11,7 +11,9 @@ Context of previous code tokens.
 Prediction of the next code token.
 
 ## Input Format
-Each line in the prediction file must correspond to a line in the answer file, containing the same number of tokens. Example:
+Each line in the prediction file must correspond to a line in the answer file, containing the same number of tokens. 
+Example: 
+
 Line from input file
 ```
 <s> import json <EOL> json . load ( f ) </s>
