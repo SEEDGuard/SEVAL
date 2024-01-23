@@ -38,6 +38,10 @@ In order to ensure the validity of the evaluation method, we are requiring that 
 
 There is a separate test folder that you must add your tests to. We also ask that you provide a 'how-to-test' section in your readme, detailing how to test the evaluation method.
 
+## Coordinator
+
+Mitchell Huggins, please contact [ywang146@ncsu.edu](ywang146@ncsu.edu) if any questions about SEVAL.
+
 ## Contributors
 
 <p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="mrhuggins03" /></a>
