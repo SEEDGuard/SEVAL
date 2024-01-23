@@ -30,17 +30,17 @@ You can either choose to integrate an existing evaluation technique or add a new
 
 Ensure that you have a detailed readme that describes how to use the evaluation method.
 
-An example of an evaluation method and approriate readme can be found [here](https://github.com/SEEDGuard/SEVAL/tree/main/src/tasks/code_generation).
+An example of an evaluation method and appropriate readme can be found [here](https://github.com/SEEDGuard/SEVAL/tree/main/src/tasks/code_generation).
 
-3. **Add a test scipt for you evaluation**
+3. **Add a test script for you evaluation**
 
-In order to ensure the validity of the evaluation method, we are requiring that you provide a test script as well. 
+In order to ensure the validity of the evaluation method, we require that you provide a test script as well. 
 
 There is a separate test folder that you must add your tests to. We also ask that you provide a 'how-to-test' section in your readme, detailing how to test the evaluation method.
 
 ## Coordinator
 
-Mitchell Huggins, please contact [ywang146@ncsu.edu](ywang146@ncsu.edu) if any questions about SEVAL.
+Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any questions about SEVAL.
 
 ## Contributors
 
