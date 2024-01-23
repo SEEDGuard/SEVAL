@@ -22,13 +22,15 @@ Thank you for your interest in contributing! This document outlines the process 
 
 ## Getting Started
 
-1. **Identify your target**
+1. **Identify your target software engineering task**
 
-You can either choose to improve an existing evaluation technique or add a new evaluation technique
+You can either choose to integrate an existing evaluation technique or add a new evaluation technique.
 
-2. **Integrate the evaluation method**
+3. **Integrate the evaluation method**
 
 Ensure that you have a detailed readme that describes how to use the evaluation method.
+
+An example of an evaluation method and approriate readme can be found [here](https://github.com/SEEDGuard/SEVAL/tree/main/src/tasks/code_generation).
 
 3. **Add a test scipt for you evaluation**
 
