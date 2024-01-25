@@ -38,6 +38,8 @@ In order to ensure the validity of the evaluation method, we require that you pr
 
 There is a separate test folder that you must add your tests to. We also ask that you provide a 'how-to-test' section in your readme, detailing how to test the evaluation method.
 
+An example test script can be found [here](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_generation/test.py).
+
 ## Coordinator
 
 Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any questions about SEVAL.
