@@ -25,6 +25,9 @@ And the corresponding line in your prediction file is:
 public void inc ( ) { this . add ( 1 ) ; }
 ```
 
+## How To Test
+The test script for this evaulation is in the src/test/code_generation folder. To test, run the test.py script. The output produced should match the expected.txt file.
+
 
 ## Evaluation Metrics and Implementation
 
