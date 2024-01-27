@@ -19,4 +19,4 @@ with open("output.txt", "r") as f_output, open("expected.txt", "r") as f_expecte
         print("The text in output.txt does not match the text in expected.txt.")
 
 # Delete the output.txt file
-#os.remove("output.txt")
+os.remove("output.txt")
