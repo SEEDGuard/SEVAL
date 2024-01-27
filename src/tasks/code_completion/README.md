@@ -24,6 +24,9 @@ Corresponding line from predictions file
 . import numpy <EOL> json . dump ( open ) <EOL>
 ```
 
+## How To Test
+The test script for this evaluation is in the src/test/code_completion folder. To test, run the test.py script. The output produced should match the expected.txt file.
+
 ## Evaluation Metrics and Implementation
 Measured by comparing the predicted tokens against the actual tokens, and provides a percentage value indicating the accuracy of predictions.
 
