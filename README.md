@@ -8,7 +8,7 @@ A library for software engineering task evaluation
 - [x] [Code Translation](src/tasks/code_translation/README.md)
 - [ ] [Clone Detection](src/tasks/clone_detection/README.md)
 - [x] [Code Repair](src/tasks/code_repair/README.md)
-- [ ] [Code Completion](src/tasks/code_completion/README.md)
+- [x] [Code Completion](src/tasks/code_completion/README.md)
 - [ ] [Code Search](src/tasks/code_search/README.md)
 - [ ] Code Classification
   - [ ] Bug/Defect/ Prediction
@@ -48,5 +48,6 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 
 <p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="mrhuggins03" /></a>
 <a href="https://github.com/chaseltb"><img src="https://avatars.githubusercontent.com/chaseltb?v=4" width="50px" alt="chaseltb" /></a>
+<a href="https://github.com/ArsalaanK7"><img src="https://avatars.githubusercontent.com/ArsalaanK7?v=4" width="50px" alt="ArsalaanK7" /></a>
 </p>
 
