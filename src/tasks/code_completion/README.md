@@ -1,4 +1,4 @@
-# Task: Code Generation
+# Task: Code Completion
 
 ## Problem Definition
 Predict the next code token based on the context of previous tokens, with the aim of enhancing software development efficiency. 
