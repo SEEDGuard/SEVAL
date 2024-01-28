@@ -39,10 +39,12 @@ python src/test/code_clone_detection/test.py --answers labels.txt --predictions 
 
 ## Evaluation Metrics and Implementation
 The performance is evaluated by F1 score where a binary classification is conducted. 1 stands for semantic equivalence and 0 for others.
-$$ F1 \text{ Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} $$
+
+$F1 \text{ Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 Accuracy measures the overall correctness of the model's predictions.
-$$ \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Instances}} $$
+
+$Accuracy = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Instances}}$
 
 ## Source
 
