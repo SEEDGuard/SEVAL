@@ -24,7 +24,9 @@ Thank you for your interest in contributing! This document outlines the process 
 
 1. **Identify your target software engineering task** (Unfamiliar with SE tasks? Find them [here](https://github.com/gai4se/LLM4SE?tab=readme-ov-file#paper-list)!)
 
-You can either choose to integrate an existing evaluation technique or add a new evaluation technique.
+You can either choose to integrate an existing evaluation technique or add a new evaluation technique. 
+
+Note, there are evaluation tasks that are currently being worked on. Check the pull requests tab to see if a task is already in the works
 
 3. **Integrate the evaluation method**
 
