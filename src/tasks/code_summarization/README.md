@@ -22,6 +22,9 @@ And the corresponding line in your prediction file is:
 0	Prints a summary message
 ```
 
+## How To Test
+The test script for this evaulation is in the src/test/code_summarization folder. To test, run the test.py script. The output produced should match the expected.txt file.
+
 ## Evaluation Metrics and Implementation
 
 - BLEU
@@ -32,5 +35,3 @@ And the corresponding line in your prediction file is:
 - [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text/evaluator)
 
 ## Contributor
-
-Brennen Farrell (btfarre2@ncsu.edu)
