@@ -26,7 +26,7 @@ Thank you for your interest in contributing! This document outlines the process 
 
 You can either choose to integrate an existing evaluation technique or add a new evaluation technique. 
 
-Note, there are evaluation tasks that are currently being worked on. Check the pull requests tab to see if a task is already in the works
+Note, there could be evaluation tasks that are currently being worked on. Check the pull requests tab to see if a task is already in the works
 
 3. **Integrate the evaluation method**
 
