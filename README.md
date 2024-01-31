@@ -4,7 +4,7 @@ A library for software engineering task evaluation
 ## Supported Tasks
 
 - [x] [Code Generation](src/tasks/code_generation/README.md)
-- [ ] [Code Summarization](src/tasks/code_summarization/README.md)
+- [x] [Code Summarization](src/tasks/code_summarization/README.md)
 - [x] [Code Translation](src/tasks/code_translation/README.md)
 - [ ] [Clone Detection](src/tasks/clone_detection/README.md)
 - [x] [Code Repair](src/tasks/code_repair/README.md)
@@ -51,5 +51,6 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 <p align="left"><a href="https://github.com/mrhuggins03"><img src="https://avatars.githubusercontent.com/mrhuggins03?v=4" width="50px" alt="mrhuggins03" /></a>
 <a href="https://github.com/chaseltb"><img src="https://avatars.githubusercontent.com/chaseltb?v=4" width="50px" alt="chaseltb" /></a>
 <a href="https://github.com/ArsalaanK7"><img src="https://avatars.githubusercontent.com/ArsalaanK7?v=4" width="50px" alt="ArsalaanK7" /></a>
+<a href="https://github.com/BrennenFa"><img src="https://avatars.githubusercontent.com/BrennenFa?v=4" width="50px" alt="BrennenFa" /></a>
 </p>
 
