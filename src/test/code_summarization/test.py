@@ -1,12 +1,13 @@
 import subprocess
 import os
 
+
 script_path = "../../tasks/code_summarization/eval.py"
-arguments = ["--reference", "reference.txt", 
-             "--predictions", "predictions.txt"]
+reference_file = 'reference.txt'
+predictions_file = 'predictions.txt'
 
 with open("output.txt", "w") as f:
-    subprocess.run(["python", script_path] + arguments, stderr=f)
+    subprocess.run(['python', script_path, reference_file], stdin=open(predictions_file, 'r'), stdout=f, stderr=f, text = True)
 
 
 # Check if the text in the output.txt file matches the text in the expected.txt file
