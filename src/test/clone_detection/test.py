@@ -2,7 +2,7 @@ import subprocess
 import os
 
 script_path = "../../tasks/clone_detection/eval.py"
-arguments = ["--answers", "answers.json", 
+arguments = ["--answers", "answers.txt", 
              "--predictions", "predictions.txt"]
 
 with open("output.txt", "w") as f:
