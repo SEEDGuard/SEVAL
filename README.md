@@ -3,18 +3,45 @@ A library for software engineering task evaluation
 
 ## Supported Tasks
 
-- [x] [Code Generation](src/tasks/code_generation/README.md)
-- [x] [Code Summarization](src/tasks/code_summarization/README.md)
-- [x] [Code Translation](src/tasks/code_translation/README.md)
-- [ ] [Clone Detection](src/tasks/clone_detection/README.md)
-- [x] [Code Repair](src/tasks/code_repair/README.md)
-- [x] [Code Completion](src/tasks/code_completion/README.md)
-- [ ] [Code Search](src/tasks/code_search/README.md)
-- [ ] Code Classification
-  - [ ] Bug/Defect/ Prediction
-  - [ ] Bug/Vulnerability Type Prediction
-- [ ] Fault/Bug Localization
-- [ ] ...
+### Text-to-Code
+
+| Task | Metric | Reference | If Integrated? | 
+|------|---------|----------------|----------------|
+|   [Code Generation](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_generation/test.py)   |   [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/em.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
+|      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/bleu.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
+
+
+### Code-to-Code
+
+| Task | Metric | Reference | If Integrated? |
+|------|---------|----------------|----------------|
+|  Code Translation    |         |                |               |
+|  Code Repair    |         |                |               |
+|  Code Completion    |         |                |               |
+|  Code Search    |         |                |               |
+
+### Code-to-Text
+
+| Task | Metric | Reference | If Integrated? |
+|------|---------|----------------|----------------|
+|  Code Summarization    |         |                |               |
+
+
+### Code Clasification
+
+| Task | Metric | Reference | If Integrated? |
+|------|---------|----------------|----------------|
+|  Clone Detection    |         |                |               |
+|  Bug/Defect/ Prediction    |         |                |               |
+|  Bug/Vulnerability Type Prediction    |         |                |               |
+
+
+### Others
+
+| Task | Metric | Reference | If Integrated? |
+|------|---------|----------------|----------------|
+|  Fault/Bug Localization    |         |                |               |
+
 
 ## How to Contribute
 
