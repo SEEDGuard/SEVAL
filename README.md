@@ -7,7 +7,7 @@ A library for software engineering task evaluation
 
 | Task | Metric | Reference | If Integrated? | 
 |------|---------|----------------|----------------|
-|   [Code Generation](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_generation/test.py)   |   [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/em.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
+|   [Code Generation](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_generation/test.py)   |   [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/eval.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
 |      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/bleu.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
 
 
@@ -15,16 +15,18 @@ A library for software engineering task evaluation
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
-|  Code Translation    |         |                |               |
-|  Code Repair    |         |                |               |
-|  Code Completion    |         |                |               |
+|  Code Translation    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_translation/eval.py)     |        [CodeXGLUE -- Code Translator](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-to-code-trans/evaluator)        |               |
+|      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_translation/bleu.py)      |      [CodeXGLUE -- Code Translator](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-to-code-trans/evaluator)          |               |
+|  Code Repair    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/eval.py)     |        [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |               |
+|      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/bleu.py)      |     [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |               |
+|  [Code Completion](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_completion/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_completion/eval.py)     |        [CodeXGLUE -- Code Completion (token level)](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/CodeCompletion-token/evaluator)        |       :heavy_check_mark:        |
 |  Code Search    |         |                |               |
 
 ### Code-to-Text
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
-|  Code Summarization    |         |                |               |
+|  [Code Summarization](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_summarization/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_summarization/eval.py)     |        [CodeXGLUE - Code-Text](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text/evaluator)        |       :heavy_check_mark:        |
 
 
 ### Code Clasification
