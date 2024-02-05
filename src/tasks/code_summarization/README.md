@@ -32,6 +32,6 @@ The test script for this evaulation is in the src/test/code_summarization folder
 
 ## Source
 
-- [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text/evaluator)
+- [CodeXGLUE - Code-Text](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text/evaluator)
 
 ## Contributor
