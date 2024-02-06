@@ -83,3 +83,5 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 <a href="https://github.com/BrennenFa"><img src="https://avatars.githubusercontent.com/BrennenFa?v=4" width="50px" alt="BrennenFa" /></a>
 </p>
 
+## Dependancy
+- python 3.6 or 3.7
