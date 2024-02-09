@@ -37,10 +37,10 @@ The prediction file is a text file where each row gives the following three piec
 3. The binary classification (1 for equivalence)
 
 ## How To Test
-The test script for this evaluation is located in the src/test/code_clone_detection folder. To test, run the test.py script. The output produced should match the predicted_results.txt file.
+The test script for this evaluation is located in the src/test/clone_detection folder. To test run the following test.py script. The output produced should match the answers.txt file.
 
 ```
-python src/test/clone_detection/test.py --answers labels.txt --predictions predicted_results.txt
+python src/test/clone_detection/test.py -a evaluator/answers.txt -p evaluator/predictions.txt
 ```
 
 ## Evaluation Metrics and Implementation
