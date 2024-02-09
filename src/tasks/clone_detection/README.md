@@ -3,38 +3,44 @@
 ## Problem Definition
 
 ### Input
-
 Pairs of code snippets.
 
 ### Output
+Determine whether each pair is a code clone or not. A binary classification (0/1) is conducted, where 1 stands for semantic equivalence and 0 for others.
 
-Determine whether each pair is a code clone or not.
+## File Formats
+The input file is stores in a JSON lines file. Each row contains the following:
+1. func: the code to assess
+2. index: the index number assigned to this piece of code 
 
-## Input Format
-
-The answer file is in the same format as the dev set JSON lines file. A legal prediction file is expected to be a JSON lines file. Each line in the prediction file represents the model's prediction for the corresponding input in the answer file. For example, one line in the answer file is:
 ```
 {
-  "label": "Clone",
-  "code1": "public void inc ( ) { this . add ( 1 ) ; }",
-  "code2": "public void inc ( ) { this . add ( 1 ) ; }"
+  "func": "public Object run() {
+               try {
+                   MessageDigest digest = MessageDigest.getInstance(\"SHA\");
+                   digest.update(buf.toString().getBytes());
+                   byte[] data = digest.digest();
+                   serialNum = new BASE64Encoder().encode(data);
+                   return serialNum;
+               } catch (NoSuchAlgorithmException exp) {
+                   BootSecurityManager.securityLogger.log(Level.SEVERE, exp.getMessage(), exp);
+                   return buf.toString();
+               }
+           }",
+  "idx": "10005624"
 }
 ```
 
-And the corresponding line in your prediction file is:
-```
-{
-  "label": "Clone",
-  "code1": "public void inc ( ) { this . add ( 1 ) ; }",
-  "code2": "public void inc ( ) { this . add ( 1 ) ; }"
-}
-```
+The prediction file is a text file where each row gives the following three pieces of information
+1. The index of one of the pairs of code checked
+2. The index of the another pair
+3. The binary classification (1 for equivalence)
 
 ## How To Test
 The test script for this evaluation is located in the src/test/code_clone_detection folder. To test, run the test.py script. The output produced should match the predicted_results.txt file.
 
 ```
-python src/test/code_clone_detection/test.py --answers labels.txt --predictions predicted_results.txt
+python src/test/clone_detection/test.py --answers labels.txt --predictions predicted_results.txt
 ```
 
 ## Evaluation Metrics and Implementation
