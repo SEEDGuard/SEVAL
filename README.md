@@ -34,15 +34,15 @@ A library for software engineering task evaluation
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
 |  Clone Detection    |         |    [CodeXGLUE - Clone Detection](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/Clone-detection-BigCloneBench/README.md)            |               |
-|  Bug/Defect/ Prediction    |         |    [Paper]()            |               |
-|  Bug/Vulnerability Type Prediction    |         |      [Paper]()          |               |
+|  Bug/Defect/ Prediction    |         |    [Paper with Replication Package]()            |               |
+|  Bug/Vulnerability Type Prediction    |         |      [Paper with Replication Package]()          |               |
 
 
 ### Others
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
-|  Fault/Bug Localization    |         |                |               |
+|  Fault/Bug Localization    |         |  [Paper with Replication Package]()             |               |
 
 
 ## How to Contribute
