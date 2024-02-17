@@ -1,4 +1,4 @@
-# SEVAL
+# SEEDEVAL
 A library for software engineering task evaluation
 
 ## Supported Tasks
