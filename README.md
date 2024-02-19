@@ -86,3 +86,4 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 
 ## Dependancy
 - python 3.6 or 3.7
+- numpy
