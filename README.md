@@ -33,7 +33,7 @@ A library for software engineering task evaluation
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
-|  Clone Detection    |         |    [CodeXGLUE - Clone Detection](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/Clone-detection-BigCloneBench/README.md)            |               |
+|  [Clone Detection](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/clone_detection/test.py)    |    [MAP@R score](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/clone_detection/eval.py)     |    [CodeXGLUE - Clone Detection](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/Clone-detection-BigCloneBench/README.md)            |       :heavy_check_mark:        |
 |  Bug/Defect Prediction - Binary    |         |    [Paper with Replication Package]()            |               |
 |  Bug/Vulnerability Type Prediction - Multi-class    |         |      [Paper with Replication Package]()          |               |
 
@@ -81,6 +81,7 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 <a href="https://github.com/chaseltb"><img src="https://avatars.githubusercontent.com/chaseltb?v=4" width="50px" alt="chaseltb" /></a>
 <a href="https://github.com/ArsalaanK7"><img src="https://avatars.githubusercontent.com/ArsalaanK7?v=4" width="50px" alt="ArsalaanK7" /></a>
 <a href="https://github.com/BrennenFa"><img src="https://avatars.githubusercontent.com/BrennenFa?v=4" width="50px" alt="BrennenFa" /></a>
+<a href="https://github.com/EZ7051"><img src="https://avatars.githubusercontent.com/EZ7051?v=4" width="50px" alt="EZ7051" /></a>
 </p>
 
 ## Dependancy
