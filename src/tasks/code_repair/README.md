@@ -22,6 +22,8 @@ And the corresponding line in your prediction file is:
 private TYPE_1 getType ( TYPE_2 VAR_1 ) { return new TYPE_1 ( VAR_2 , VAR_1 ) ; }
 ```
 
+## How To Test
+The test script for this evaulation is in the src/test/code_generation folder. To test, run the test.py script. The output produced should match the expected.txt file.
 
 ## Evaluation Metrics and Implementation
 
