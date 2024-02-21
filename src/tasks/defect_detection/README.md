@@ -43,4 +43,4 @@ The test script for this evaulation is in the src/test/code_generation folder. T
 
 ## Contributor
 
-Mitchell Huggins (mrhuggin@ncsu.edu)
+David Wang (ywang146@ncsu.edu), Mitchell Huggins (mrhuggin@ncsu.edu) 
