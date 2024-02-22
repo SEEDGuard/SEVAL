@@ -40,7 +40,7 @@ The prediction file is a text file where each row gives the following three piec
 The test script for this evaluation is located in the src/test/clone_detection folder. To test run the following test.py script. The output produced should match the answers.txt file.
 
 ```
-python src/task/clone_detection/eval.py -a src/test/clone_detection/answers.txt -p src/test/clone_detection/predictions.txt
+python src/tasks/clone_detection/eval.py -a src/test/clone_detection/answers.txt -p src/test/clone_detection/predictions.txt
 ```
 
 ## Evaluation Metrics and Implementation
