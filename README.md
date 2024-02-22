@@ -83,6 +83,7 @@ Mitchell Huggins, please contact [mrhuggin@ncsu.edu](mrhuggin@ncsu.edu) if any q
 <a href="https://github.com/BrennenFa"><img src="https://avatars.githubusercontent.com/BrennenFa?v=4" width="50px" alt="BrennenFa" /></a>
 <a href="https://github.com/EZ7051"><img src="https://avatars.githubusercontent.com/EZ7051?v=4" width="50px" alt="EZ7051" /></a>
 <a href="https://github.com/ywang146"><img src="https://avatars.githubusercontent.com/ywang146?v=4" width="50px" alt="ywang146" /></a>
+<a href="https://github.com/kritipat"><img src="https://avatars.githubusercontent.com/kritipat?v=4" width="50px" alt="kritipat" /></a>
 </p>
 
 ## Dependancy
