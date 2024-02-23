@@ -37,7 +37,7 @@ THe predictions file contains the expected answers as a list of predicted answer
 To evaluate the predictoins for this task and report the MRR score, run the following command.
 
 ```
-python src/tasks/code_search/eval.py -a src/test/code_search/test.txt -p src/test/code_search/predictions.txt
+python src/tasks/code_search/eval.py -a src/test/code_search/test.jsonl -p src/test/code_search/predictions.jsonl
 ```
 
 ## Evaluation Metrics and Implementation
