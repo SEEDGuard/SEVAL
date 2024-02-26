@@ -3,7 +3,18 @@ A library for software engineering task evaluation
 
 ## Supported Tasks
 
+
+
 ### Text-to-Code
+
+#### Task Definition
+
+| Task | Input | Output | Task Definition |
+|---------|----------------|----------------| -------------- |
+|  Code Generation   |  A natural language description/comment on implmenting certain specification  |  Code  | Generate code for a given specification written in natural language  |
+
+
+#### Metrics
 
 | Task | Metric | Reference | If Integrated? | 
 |------|---------|----------------|----------------|
