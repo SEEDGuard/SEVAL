@@ -35,7 +35,7 @@ A library for software engineering task evaluation
 |------|---------|----------------|----------------|
 |  [Clone Detection](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/clone_detection/test.py)    |    [MAP@R score](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/clone_detection/eval.py)     |    [CodeXGLUE - Clone Detection](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/Clone-detection-BigCloneBench/README.md)            |       :heavy_check_mark:        |
 |  [Bug/Defect Prediction - Binary](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/defect_detection/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/defect_detection/eval.py)     |    [CodeXGLUE - Defect Detection](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/Defect-detection/evaluator/evaluator.py)            |        :heavy_check_mark:       |
-|  Bug/Vulnerability Type Prediction - Multi-class    |         |      [Paper with Replication Package]()          |               |
+|  [Bug/Vulnerability Type Prediction - Multi-class](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/type_prediction/test.py)    |     [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/type_prediction/eval.py)    |      [CodeXGLUE -- Type Prediction -- TypeScript](https://github.com/microsoft/CodeXGLUE/blob/main/Code-Code/TypePrediction-TypeScript/evaluator/evaluator.py)          |       :heavy_check_mark:        |
 
 
 ### Others
