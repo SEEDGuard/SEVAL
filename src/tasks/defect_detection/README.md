@@ -21,7 +21,7 @@ Predictions file is a txt file containing the index of the output and the corres
 4	0
 ```
 
-The test file contains the correct output for each line corresponding to the predictions file. A legal prediction file is expected to be a jsonl file format. An example test file is:
+The test file contains the correct output for each line corresponding to the predictions file. A legal test file is expected to be a jsonl file format. An example test file is:
 ```
 {"project": "FFmpeg", "commit_id": "id0", "target": 0, "func": "func0", "idx": 0}
 {"project": "FFmpeg", "commit_id": "id1", "target": 1, "func": "func1", "idx": 1}
