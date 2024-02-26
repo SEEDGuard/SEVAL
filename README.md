@@ -24,6 +24,15 @@ A library for software engineering task evaluation
 
 ### Code-to-Code
 
+#### Task Definition
+
+| Task | Input | Output | Task Definition |
+|---------|----------------|----------------| -------------- |
+|         |         |         |         |
+
+
+#### Metrics
+
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
 |  [Code Translation](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_translation/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_translation/eval.py)     |        [CodeXGLUE -- Code Translator](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-to-code-trans/evaluator)        |         :heavy_check_mark:       |
@@ -35,12 +44,32 @@ A library for software engineering task evaluation
 
 ### Code-to-Text
 
+#### Task Definition
+
+
+| Task | Input | Output | Task Definition |
+|---------|----------------|----------------| -------------- |
+|         |         |         |         |
+
+
+#### Metrics
+
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
 |  [Code Summarization](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_summarization/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_summarization/eval.py)     |        [CodeXGLUE - Code-Text](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text/evaluator)        |       :heavy_check_mark:        |
 
 
 ### Code Clasification
+
+#### Task Definition
+
+
+| Task | Input | Output | Task Definition |
+|---------|----------------|----------------| -------------- |
+|         |         |         |         |
+
+
+#### Metrics
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
@@ -50,6 +79,16 @@ A library for software engineering task evaluation
 
 
 ### Others
+
+#### Task Definition
+
+
+| Task | Input | Output | Task Definition |
+|---------|----------------|----------------| -------------- |
+|         |         |         |         |
+
+
+#### Metrics
 
 | Task | Metric | Reference | If Integrated? |
 |------|---------|----------------|----------------|
