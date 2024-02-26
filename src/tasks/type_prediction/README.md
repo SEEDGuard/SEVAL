@@ -12,7 +12,7 @@ Type of a particular variable, parameter, or function.
 
 ## Input Format
 
-The predictions file is a txt file containing the index of the output and the corresponding type prediction of the model. A legal prediction file is expected to be a txt format file. It should have the same number of lines as the test file. An example of 4 lines of a predictions file is:
+The predictions file is a txt file containing the index of the output and the corresponding type prediction of the model. A legal prediction file is expected to be a txt format file. It should have the same number of lines as the references file. An example of 4 lines of a predictions file is:
 ```
 0	HttpClient
 1	Router
@@ -20,7 +20,7 @@ The predictions file is a txt file containing the index of the output and the co
 3	number
 ```
 
-The test file contains the correct output for each line corresponding to the predictions file. A legal test file is expected to be a txt file with the same format as the predictions. An example 4 lines of a test file is:
+The references file contains the correct output for each line corresponding to the predictions file. A legal references file is expected to be a txt file with the same format as the predictions. An example 4 lines of a references file is:
 ```
 0	HttpClient
 1	Router

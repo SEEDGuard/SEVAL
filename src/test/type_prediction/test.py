@@ -2,7 +2,7 @@ import subprocess
 import os
 
 script_path = "../../tasks/type_prediction/eval.py"
-arguments = ["-a", "test.txt", 
+arguments = ["-a", "references.txt", 
              "-p", "predictions.txt"]
 
 with open("output.txt", "w") as f:
