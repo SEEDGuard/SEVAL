@@ -6,8 +6,8 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Navigate directories to eval.py and set file parth vairables
 script_path = os.path.normpath(os.path.join(script_directory, "../../tasks/code_search/eval.py"))
-arguments = ["--answers", "src/test/code_search/test.jsonl", 
-            "--predictions", "src/test/code_search/predictions.jsonl"]
+arguments = ["--answers", "test.jsonl", 
+            "--predictions", "predictions.jsonl"]
 
 # Navigate directories to the expected file
 expected_file_path = os.path.join(script_directory, "expected.txt")
