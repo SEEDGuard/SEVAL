@@ -37,7 +37,7 @@ THe predictions file contains the expected answers as a list of predicted answer
 To evaluate the predictions for this task and report the MRR score, run the following command.
 
 ```
-python src/test/code_search/test.py 
+python test.py 
 ```
 
 ## Evaluation Metrics and Implementation
