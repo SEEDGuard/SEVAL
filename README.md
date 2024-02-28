@@ -40,7 +40,7 @@ A library for software engineering task evaluation
 |  [Code Repair](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_repair/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/eval.py)     |        [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |         :heavy_check_mark:       |
 |      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/bleu.py)      |     [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |        :heavy_check_mark:        |
 |  [Code Completion](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_completion/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_completion/eval.py)     |        [CodeXGLUE -- Code Completion (token level)](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/CodeCompletion-token/evaluator)        |       :heavy_check_mark:        |
-|  Code Search    |         |                |               |
+|  [Code Search](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_search/test.py)    |    [MRR](https://github.com/SEEDGuard/SEVAL/blob/main/src/task/code_search/eval.py)     |         [CodeXGLUE -- Code Search (AdvTest)](https://github.com/microsoft/CodeXGLUE/blob/main/Text-Code/NL-code-search-Adv/evaluator/evaluator.py) |       :heavy_check_mark:         |
 
 ### Code-to-Text
 
