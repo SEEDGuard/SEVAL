@@ -11,7 +11,8 @@ A library for software engineering task evaluation
 
 | Task | Input | Output | Task Definition |
 |---------|----------------|----------------| -------------- |
-|  Code Generation   |  A natural language description/comment on implmenting certain specification  |  Code  | Generate code for a given specification written in natural language  |
+|  Code Generation   |  A natural language description/comment on implmenting certain specification.  |  Code  | Generate code for a given specification written in natural language.  |
+|  Code Search   |  A natural language description of code. |  The code that matches the description. | Given a natural language, search for source code that matches the natural language.  |
 
 
 #### Metrics
@@ -20,6 +21,7 @@ A library for software engineering task evaluation
 |------|---------|----------------|----------------|
 |   [Code Generation](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_generation/test.py)   |   [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/eval.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
 |      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_generation/bleu.py)      |      [CodeXGLUE - Text2Code Generation](https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/text-to-code/evaluator)          |       :heavy_check_mark:        |
+|  [Code Search](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_search/test.py)    |    [MRR](https://github.com/SEEDGuard/SEVAL/blob/main/src/task/code_search/eval.py)     |         [CodeXGLUE -- Code Search (AdvTest)](https://github.com/microsoft/CodeXGLUE/blob/main/Text-Code/NL-code-search-Adv/evaluator/evaluator.py) |       :heavy_check_mark:         |
 
 
 ### Code-to-Code
@@ -28,7 +30,9 @@ A library for software engineering task evaluation
 
 | Task | Input | Output | Task Definition |
 |---------|----------------|----------------| -------------- |
-|         |         |         |         |
+|  Code Translation   |  A function of code in either C# or Java.  |  The function translated from Java to C# or vice-versa.  | Translate the code from one programming language to another programming language.  |
+|  Code Repair   |  A Java function with bugs.  |  The refined function with no bugs.  | Automatically refine code by fixing bugs.  |
+|  Code Completion   | A chunk of Java or Python context code.  |  The predicted next token.  | Predict subsequent tokens given the context of code.  |
 
 
 #### Metrics
@@ -40,7 +44,7 @@ A library for software engineering task evaluation
 |  [Code Repair](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_repair/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/eval.py)     |        [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |         :heavy_check_mark:       |
 |      |   [BLEU](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_repair/bleu.py)      |     [CodeXGLUE -- Code Refinement](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-refinement/evaluator)        |        :heavy_check_mark:        |
 |  [Code Completion](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_completion/test.py)    |    [EM (Exact Match)](https://github.com/SEEDGuard/SEVAL/blob/main/src/tasks/code_completion/eval.py)     |        [CodeXGLUE -- Code Completion (token level)](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/CodeCompletion-token/evaluator)        |       :heavy_check_mark:        |
-|  [Code Search](https://github.com/SEEDGuard/SEVAL/blob/main/src/test/code_search/test.py)    |    [MRR](https://github.com/SEEDGuard/SEVAL/blob/main/src/task/code_search/eval.py)     |         [CodeXGLUE -- Code Search (AdvTest)](https://github.com/microsoft/CodeXGLUE/blob/main/Text-Code/NL-code-search-Adv/evaluator/evaluator.py) |       :heavy_check_mark:         |
+
 
 ### Code-to-Text
 
@@ -49,7 +53,7 @@ A library for software engineering task evaluation
 
 | Task | Input | Output | Task Definition |
 |---------|----------------|----------------| -------------- |
-|         |         |         |         |
+|  Code Summarization   | Code  |  A natural language description of the code.  | Generate natural language comments for code.  |
 
 
 #### Metrics
@@ -66,7 +70,9 @@ A library for software engineering task evaluation
 
 | Task | Input | Output | Task Definition |
 |---------|----------------|----------------| -------------- |
-|         |         |         |         |
+|  Clone Detection   | Two examples of code.  |  A binary classification of similar or not.  | Measure the semantic similarity between codes.  |
+|  Bug/Defect Prediction - Binary   | Code  | A binary classification of defective or not. | Classify whether code contains defects that may be used to attack software systems.  |
+|  Bug/Vulnerability Type Prediction - Multi-class   | Code  |  The type of a variable, parameter, or function.  | Predict the correct type for a particular variable, parameter, or function.  |
 
 
 #### Metrics
